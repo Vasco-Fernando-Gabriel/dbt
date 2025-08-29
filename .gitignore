@@ -1,0 +1,59 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+# =======================
+# Python
+# =======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# =======================
+# dbt
+# =======================
+dbt_modules/
+target/
+logs/
+
+# =======================
+# uv
+# =======================
+.uv/
+uv.lock
+
+# =======================
+# Sistema
+# =======================
+.DS_Store
+Thumbs.db
